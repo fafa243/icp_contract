@@ -1,44 +1,23 @@
-const license = {
-    owner: "fafa",
-    websiteName: "ClimaCare",
-    theme: "Climate Analysis",
-    websiteContent: {
-      aboutUs: "We are ClimaCare, a climate analysis platform that aims to help people understand and cope with climate impacts.",
-      vision: "Our vision is to provide useful information and help people deal with climate change.",
-      features: [
-        "Checks the climate temperature in various locations.",
-        "Provides data on places that are severely affected by climate.",
-        "Highlights points that are particularly worrying.",
-      ]
-    },
-    accessControl: {
-      ownerOnly: true,
-      ownerApprovalRequired: true,
-    },
-    security: {
-      strictGuard: true,
-      externalAssistance: true,
-      internalAssistance: true,
-    },
-    performance: {
-      fastLoading: true,
-    },
-    storage: {
-      organized: true,
-    }
-  };
-  
-  // Print the information in the license
-  console.log("Owner:", license.owner);
-  console.log("Website Name:", license.websiteName);
-  console.log("Theme:", license.theme);
-  console.log("About Us:", license.websiteContent.aboutUs);
-  console.log("Vision:", license.websiteContent.vision);
-  console.log("Features:", license.websiteContent.features.join("\n - "));
-  console.log("Owner Only Access:", license.accessControl.ownerOnly);
-  console.log("Owner Approval Required:", license.accessControl.ownerApprovalRequired);
-  console.log("Strict Guard:", license.security.strictGuard);
-  console.log("External Assistance:", license.security.externalAssistance);
-  console.log("Internal Assistance:", license.security.internalAssistance);
-  console.log("Fast Loading:", license.performance.fastLoading);
-  console.log("Organized Storage:", license.storage.organized);
+/*
+MIT License
+
+Copyright (c) [2024] [fafa]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
