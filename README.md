@@ -3,26 +3,14 @@ This smart contract is designed to facilitate the analysis of climate and relate
 
 ## Key Features
 
-1. **Climate Analysis:**
-   - Check the temperature in a specific climate location.
-
-2. **Location Information:**
-   - Presents data on places that are severely affected by climate.
-
-3. **Restricted Access:**
-   - Only the owner can access the website with special approval.
-
-4. **Website Security:**
-   - Strict safeguards are required to prevent information leakage.
-
-5. **Error Management:**
-   - The system supports error reporting and handling, including external and internal assistance.
-
-6. **Website Speed:**
-   - Focus on improving website speed to avoid long loading.
-
-7. **Neat Data Storage:**
-   - Provide a structured and organized data storage system.
+1. **Temperature Monitoring::**
+   This information can help in understanding temperature changes that occur over time and provide insight into climate trends in the area.
+2. **Identification of Severe Climate Impacted Areas:**
+   This can include areas with natural disaster events or extreme climate conditions, providing a better understanding of areas that require special attention.
+3. **Data Recovery:**
+   The data recovery feature allows smart contracts to respond and address situations of system errors or failures, recovering data that may have been affected by disruptions or technical issues.
+4. **User Support:**
+   This can include technical assistance, troubleshooting, or advice related to website management and smart contract operations, providing a more holistic service to users.
    
 ### Requirements
 * rustc 1.64 or higher
