@@ -1,4 +1,4 @@
-# ClimaCare Smart Contract
+# Climate Smart Contract
 This smart contract is designed to facilitate the analysis of climate and related information around us. With a focus on helping communities cope with climate impacts, this smart contract provides the ability to monitor temperatures in specific locations, identify areas that are severely affected by climate, and manage website security and performance.
 
 ## Key Features
