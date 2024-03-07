@@ -1,5 +1,29 @@
-# website Climacare_contract
+# ClimaCare Smart Contract
+This smart contract is designed to facilitate the analysis of climate and related information around us. With a focus on helping communities cope with climate impacts, this smart contract provides the ability to monitor temperatures in specific locations, identify areas that are severely affected by climate, and manage website security and performance.
 
+## Key Features
+
+1. **Climate Analysis:**
+   - Check the temperature in a specific climate location.
+
+2. **Location Information:**
+   - Presents data on places that are severely affected by climate.
+
+3. **Restricted Access:**
+   - Only the owner can access the website with special approval.
+
+4. **Website Security:**
+   - Strict safeguards are required to prevent information leakage.
+
+5. **Error Management:**
+   - The system supports error reporting and handling, including external and internal assistance.
+
+6. **Website Speed:**
+   - Focus on improving website speed to avoid long loading.
+
+7. **Neat Data Storage:**
+   - Provide a structured and organized data storage system.
+   
 ### Requirements
 * rustc 1.64 or higher
 ```bash
