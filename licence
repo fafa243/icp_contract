@@ -1,0 +1,44 @@
+const license = {
+    owner: "fafa",
+    websiteName: "ClimaCare",
+    theme: "Climate Analysis",
+    websiteContent: {
+      aboutUs: "We are ClimaCare, a climate analysis platform that aims to help people understand and cope with climate impacts.",
+      vision: "Our vision is to provide useful information and help people deal with climate change.",
+      features: [
+        "Checks the climate temperature in various locations.",
+        "Provides data on places that are severely affected by climate.",
+        "Highlights points that are particularly worrying.",
+      ]
+    },
+    accessControl: {
+      ownerOnly: true,
+      ownerApprovalRequired: true,
+    },
+    security: {
+      strictGuard: true,
+      externalAssistance: true,
+      internalAssistance: true,
+    },
+    performance: {
+      fastLoading: true,
+    },
+    storage: {
+      organized: true,
+    }
+  };
+  
+  // Print the information in the license
+  console.log("Owner:", license.owner);
+  console.log("Website Name:", license.websiteName);
+  console.log("Theme:", license.theme);
+  console.log("About Us:", license.websiteContent.aboutUs);
+  console.log("Vision:", license.websiteContent.vision);
+  console.log("Features:", license.websiteContent.features.join("\n - "));
+  console.log("Owner Only Access:", license.accessControl.ownerOnly);
+  console.log("Owner Approval Required:", license.accessControl.ownerApprovalRequired);
+  console.log("Strict Guard:", license.security.strictGuard);
+  console.log("External Assistance:", license.security.externalAssistance);
+  console.log("Internal Assistance:", license.security.internalAssistance);
+  console.log("Fast Loading:", license.performance.fastLoading);
+  console.log("Organized Storage:", license.storage.organized);
